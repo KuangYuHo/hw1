@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A128A1E224606A900A39D73 /* chractor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A128A1C224606A900A39D73 /* chractor.storyboard */; };
+		0A128A202246072800A39D73 /* image.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A128A1F2246072800A39D73 /* image.storyboard */; };
 		0AED9D5E224556BB00FD92E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED9D5D224556BB00FD92E9 /* AppDelegate.swift */; };
 		0AED9D60224556BB00FD92E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED9D5F224556BB00FD92E9 /* ViewController.swift */; };
 		0AED9D63224556BB00FD92E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AED9D61224556BB00FD92E9 /* Main.storyboard */; };
@@ -15,7 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AED9D5A224556BB00FD92E9 /* hw1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A128A1D224606A900A39D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = hw1/Base.lproj/chractor.storyboard; sourceTree = "<group>"; };
+		0A128A1F2246072800A39D73 /* image.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = image.storyboard; sourceTree = "<group>"; };
+		0AED9D5A224556BB00FD92E9 /* Apex Legends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apex Legends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AED9D5D224556BB00FD92E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AED9D5F224556BB00FD92E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AED9D62224556BB00FD92E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		0AED9D51224556BB00FD92E9 = {
 			isa = PBXGroup;
 			children = (
+				0A128A1F2246072800A39D73 /* image.storyboard */,
+				0A128A1C224606A900A39D73 /* chractor.storyboard */,
 				0AED9D5C224556BB00FD92E9 /* hw1 */,
 				0AED9D5B224556BB00FD92E9 /* Products */,
 			);
@@ -46,7 +52,7 @@
 		0AED9D5B224556BB00FD92E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AED9D5A224556BB00FD92E9 /* hw1.app */,
+				0AED9D5A224556BB00FD92E9 /* Apex Legends.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0AED9D59224556BB00FD92E9 /* hw1 */ = {
+		0AED9D59224556BB00FD92E9 /* Apex Legends */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AED9D6C224556BB00FD92E9 /* Build configuration list for PBXNativeTarget "hw1" */;
+			buildConfigurationList = 0AED9D6C224556BB00FD92E9 /* Build configuration list for PBXNativeTarget "Apex Legends" */;
 			buildPhases = (
 				0AED9D56224556BB00FD92E9 /* Sources */,
 				0AED9D57224556BB00FD92E9 /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = hw1;
+			name = "Apex Legends";
 			productName = hw1;
-			productReference = 0AED9D5A224556BB00FD92E9 /* hw1.app */;
+			productReference = 0AED9D5A224556BB00FD92E9 /* Apex Legends.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0AED9D59224556BB00FD92E9 /* hw1 */,
+				0AED9D59224556BB00FD92E9 /* Apex Legends */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +128,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A128A1E224606A900A39D73 /* chractor.storyboard in Resources */,
 				0AED9D68224556BB00FD92E9 /* LaunchScreen.storyboard in Resources */,
 				0AED9D65224556BB00FD92E9 /* Assets.xcassets in Resources */,
 				0AED9D63224556BB00FD92E9 /* Main.storyboard in Resources */,
+				0A128A202246072800A39D73 /* image.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +151,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0A128A1C224606A900A39D73 /* chractor.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A128A1D224606A900A39D73 /* Base */,
+			);
+			name = chractor.storyboard;
+			sourceTree = "<group>";
+		};
 		0AED9D61224556BB00FD92E9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -326,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AED9D6C224556BB00FD92E9 /* Build configuration list for PBXNativeTarget "hw1" */ = {
+		0AED9D6C224556BB00FD92E9 /* Build configuration list for PBXNativeTarget "Apex Legends" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AED9D6D224556BB00FD92E9 /* Debug */,

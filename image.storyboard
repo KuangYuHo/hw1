@@ -14,7 +14,7 @@
         <scene sceneID="3JR-Zz-sHE">
             <objects>
                 <navigationController id="TJy-Vl-2DS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="照片牆" id="8ss-wi-UqG"/>
+                    <tabBarItem key="tabBarItem" title="照片牆" image="photo-7" id="8ss-wi-UqG"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dc2-v6-zJs">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -345,6 +345,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="photo-7" width="30" height="30"/>
         <image name="圖1" width="1600" height="900"/>
         <image name="圖2" width="900" height="506"/>
         <image name="圖3" width="1024" height="576"/>
